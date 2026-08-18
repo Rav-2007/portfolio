@@ -1,0 +1,23 @@
+.raw_logo {
+  width: 50%;
+  height: auto;
+  max-width: 640px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* EURO ROMAN font - place your font files in src/assets/fonts/
+   Supported names checked below: EuroRoman.woff2, EuroRoman.woff, EuroRoman.ttf */
+@font-face {
+  font-family: "Euro Roman";
+  src: url("/assets/fonts/EuroRoman.woff2") format("woff2"),
+       url("/assets/fonts/EuroRoman.woff") format("woff"),
+       url("/assets/fonts/EuroRoman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.raw_logo text {
+  font-family: "Euro Roman", 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
