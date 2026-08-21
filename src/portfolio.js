@@ -51,62 +51,99 @@ const socialMediaLinks = [
   },
 ];
 
-// Skills focused for Designer role
+// Skills focused for Developer role
 const skills = {
   data: [
     {
-      title: "Product & UX Design",
-      fileName: "DesignImg",
+      title: "Artificial Intelligence & Machine Learning",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Research-driven interaction and information architecture",
-        "⚡ High-fidelity visual systems and component design",
-        "⚡ Usability testing, prototyping, and designer-developer handoff",
+        "⚡ Developing and fine-tuning Large Language Models (LLMs) and Small Language Models (SLMs)",
+        "⚡ Implementing advanced NLP workflows, RAG systems, and Agentic AI using frameworks like Google GenAI SDK and FastAPI",
+        "⚡ Ensuring AI security by defending against OWASP Top 10 LLM Vulnerabilities",
       ],
       softwareSkills: [
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: { color: "#F24E1E" },
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: { color: "#3776AB" },
         },
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: { color: "#FF2BC2" },
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "simple-icons:tensorflow",
+          style: { color: "#FF6F00" },
         },
         {
-          skillName: "Framer",
-          fontAwesomeClassname: "simple-icons:framer",
-          style: { color: "#0055FF" },
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
+          style: { color: "#EE4C2C" },
         },
         {
-          skillName: "Sketch",
-          fontAwesomeClassname: "simple-icons:sketch",
-          style: { color: "#FFB400" },
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
+          style: { color: "#412991" },
         },
       ],
     },
     {
-      title: "Design Systems & Handoff",
-      fileName: "DesignSystemImg",
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Building component libraries and design tokens",
-        "⚡ Writing motion and accessibility specs for engineering",
-        "⚡ Storybook and documentation for consistent delivery",
+        "⚡ Building highly responsive and dynamic frontends using React.js and Next.js",
+        "⚡ Creating scalable backend services using Node.js, Express, and Python FastAPI",
+        "⚡ Designing secure, strict schema validations and role-based access control systems",
       ],
       softwareSkills: [
         {
-          skillName: "Storybook",
-          fontAwesomeClassname: "simple-icons:storybook",
-          style: { color: "#FF4785" },
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
         },
         {
-          skillName: "Design Tokens",
-          imageSrc: "design_tokens.png",
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: { color: "#339933" },
         },
         {
-          skillName: "HTML/CSS",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: { color: "#E34F26" },
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: { color: "#3178C6" },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: { color: "#47A248" },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infrastructure & DevOps",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Architecting cloud solutions using AWS (Bedrock, EC2, S3) and Vercel for zero-downtime deployment",
+        "⚡ Setting up automated CI/CD pipelines via GitHub Actions for rapid software delivery",
+        "⚡ Managing and securing Linux-based environments and deployments",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: { color: "#232F3E" },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: { color: "#2088FF" },
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: { color: "#FCC624" },
         },
       ],
     },
@@ -284,7 +321,7 @@ const experience = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ravi.png",
+    profile_image_path: "contactMail.png",
     description:
       "I’m available for product and design roles — email me at ravikiran.h2406@gmail.com",
   },
